@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in MATLAB's error handling.  The `myFunction` uses a `try-catch` block to handle potential errors during execution. However, if an error occurs within `some_operation`, the error is caught, but not propagated, resulting in a silent failure.  The solution file provides a modified version that appropriately handles and reports errors.
